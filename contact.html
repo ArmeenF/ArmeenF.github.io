@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Armeen Farange</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Armeen Farange</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.linkedin.com/in/armeen-farange-3966b61b8/" class="fa fa-linkedin"></a></li>
+                    <li><a href="https://github.com/ArmeenF" class="fa fa-github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+         <h3>GET IN TOUCH WITH ME!</h3>
+    <div class="container-contact">
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+            <label for="fname">Email</label>
+            <input type="text" id="email" name="youremail" placeholder="Your email">
+
+            <label for="lname">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your Message" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+
+</body></html>

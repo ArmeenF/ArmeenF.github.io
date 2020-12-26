@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    font-size: 30px;
+    margin: 0;
+    background: #b3b3b3;
+}
+
+.navbar-brand {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #990000;
+}
+
+.profile-pic {
+    width: 84%;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 30px;
+}
+input[type=text],
+ select,
+ textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+
+ input[type=submit] {
+     background-color: #818181;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ input[type=submit]:hover {
+     background-color: red;
+ }
+
+ .container-contact {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+ }
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+}
+
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1199px) {
+    /* big landscape tablets, laptops, and desktops */
+
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
